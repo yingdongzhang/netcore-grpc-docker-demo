@@ -13,6 +13,7 @@ docker run -p 5000:5000 --name grpc_greeter dz/grpc_greeter:1
 ### Build Client
 ```bash
 cd ./GrpcGreeterClient
+docker build . -t dz/grpc_greeter_client:1
 ```
 ### Run Client
 ```bash
