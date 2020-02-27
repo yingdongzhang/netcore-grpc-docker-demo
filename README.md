@@ -8,7 +8,7 @@ docker build . -t dz/grpc_greeter:1
 ```
 ### Start Server
 ```bash
-docker run -p 5000:5000 --name grpc_greeter  dz/grpc_greeter:1
+docker run -p 5000:5000 --name grpc_greeter dz/grpc_greeter:1
 ```
 ### Build Client
 ```bash
